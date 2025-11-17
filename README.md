@@ -107,6 +107,18 @@ Assets → UI
 
 ---
 
+## 🗒️ Task Notes
+
+- Built using the latest **Flutter stable** (null-safe).
+- Uses **mock JSON** instead of a live API:
+  - Online → fetches remote JSON (GitHub) and **stores it in cache**.
+  - Offline → loads from **cache**, or falls back to **asset JSON**.
+- Implemented **BLoC** for predictable and scalable state management.
+- Feature-based project structure for clean separation of concerns.
+- Completed the required screens (**My Collection** + **Details Page**) with tabbed sections.
+- Version control fully set up with a clean repository structure.
+- Total development time: **~10 hours**.
+
 ## 📦 Dependencies
 
 ### Main:
