@@ -123,24 +123,24 @@ Assets → UI
 
 ### Main:
 
-| Package                             | Purpose               |
-| ----------------------------------- | --------------------- |
-| flutter_bloc                        | State management      |
-| equatable                           | Easy value comparison |
-| go_router                           | Navigation            |
-| connectivity_plus                   | Check internet        |
-| shared_preferences                  | Local caching         |
-| http                                | Remote fetch          |
-| json_annotation / json_serializable | Models                |
-| google_fonts                        | Typography            |
+| Package                             | Purpose               | Explanation                                                           |
+| ----------------------------------- | --------------------- | --------------------------------------------------------------------- |
+| flutter_bloc                        | State management      | Used to implement predictable UI states and load/filter product data. |
+| equatable                           | Easy value comparison | Makes BLoC states/events comparable without boilerplate.              |
+| go_router                           | Navigation            | Clean route setup and passing objects (ProductModel) between screens. |
+| connectivity_plus                   | Check internet        | Required to detect online/offline mode before fetching remote JSON.   |
+| shared_preferences                  | Local caching         | Stores fetched JSON so the app still works when offline.              |
+| http                                | Remote fetch          | Performs the “fake API call” to the GitHub-hosted JSON file.          |
+| json_annotation / json_serializable | Models                | Generates ProductModel serialization code cleanly and safely.         |
+| google_fonts                        | Typography            | Loads EB Garamond + Lato to match the provided design system.         |
 
 ### Dev:
 
-| Package               | Purpose            |
-| --------------------- | ------------------ |
-| flutter_native_splash | Auto splash screen |
-| build_runner          | Code generation    |
-| flutter_lints         | Best practices     |
+| Package               | Purpose            | Explanation                                                 |
+| --------------------- | ------------------ | ----------------------------------------------------------- |
+| flutter_native_splash | Auto splash screen | Generates splash screen assets and platform configurations. |
+| build_runner          | Code generation    | Required to generate JSON model code at build time.         |
+| flutter_lints         | Best practices     | Ensures consistent formatting and idiomatic Flutter code.   |
 
 ---
 
