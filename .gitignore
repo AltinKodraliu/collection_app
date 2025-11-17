@@ -1,38 +1,35 @@
-# Flutter / Dart
-.dart_tool/
-.packages
-.pub/
-build/
-.flutter-plugins
-.flutter-plugins-dependencies
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
 
-# Android
-android/.gradle/
-android/app/build/
-android/local.properties
-
-# iOS / macOS
-ios/Flutter/
-ios/Pods/
-ios/.symlinks/
-ios/build/
-ios/Runner.xcworkspace/
-ios/Runner.xcodeproj/project.xcworkspace/
-ios/Runner.xcodeproj/xcuserdata/
-macos/Pods/
-macos/build/
-
-# Xcode
-*.xcuserdata/
-*.xcuserstate
+# IntelliJ
+*.iml
+.idea/
 
 # VSCode
 .vscode/
 
-# Misc
-.DS_Store
-*.log
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.build/
+pubspec.lock
 
-# Windows build
-windows/runner/Debug
-windows/runner/Release
+# Flutter builds
+build/
+
+# Android
+android/local.properties
+android/app/debug
+android/app/profile
+android/app/release
+
+# iOS
+**/Pods/
+**/DerivedData/
+
+# Web
+web/.dart_tool/
