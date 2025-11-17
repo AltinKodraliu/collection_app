@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Coca-Cola",
+      "image": "https://freepngimg.com/thumb/coca_cola/15-coca-cola-can-png-image.png",
+      "quantity": "100/150",
+      "description": "Refreshing zero-sugar Coca-Cola in a sleek can."
+    },
+    {
+      "id": 2,
+      "name": "Pepsi Classic Bottle",
+      "image": "https://freepngimg.com/thumb/pepsi/2-pepsi-can-png-image.png",
+      "quantity": "45/100",
+      "description": "Iconic Pepsi cola in a classic glass bottle."
+    },
+    {
+      "id": 3,
+      "name": "Sprite Lemon-Lime Can",
+      "image": "https://freepngimg.com/thumb/sprite/16-sprite-png-can-image.png",
+      "quantity": "80/130",
+      "description": "Crisp and refreshing caffeine-free lemon-lime soda."
+    },
+    {
+      "id": 4,
+      "name": "Fanta Orange Bottle",
+      "image": "https://freepngimg.com/thumb/drink/22700-6-drink-transparent-image.png",
+      "quantity": "70/120",
+      "description": "Sweet orange-flavored soda bursting with flavor."
+    },
+    {
+      "id": 5,
+      "name": "Red Bull Energy Drink",
+      "image": "https://freepngimg.com/thumb/drink/22700-6-drink-transparent-image.png",
+      "quantity": "52/90",
+      "description": "High-energy drink that gives you a powerful boost."
+    },
+    {
+      "id": 6,
+      "name": "Monster Energy Green",
+      "image": "https://freepngimg.com/thumb/drink/22700-6-drink-transparent-image.png",
+      "quantity": "33/60",
+      "description": "Bold energy drink with a strong, vibrant flavor."
+    },
+    {
+      "id": 7,
+      "name": "Dr Pepper Can",
+      "image": "https://freepngimg.com/thumb/drink/22700-6-drink-transparent-image.png",
+      "quantity": "95/150",
+      "description": "Unique blend of 23 flavors in every sip."
+    },
+    {
+      "id": 8,
+      "name": "Mountain Dew Bottle",
+      "image": "https://freepngimg.com/thumb/coca_cola/7-coca-cola-diet-can-png-image.png",
+      "quantity": "60/100",
+      "description": "Citrus-charged soda with intense refreshment."
+    },
+    {
+      "id": 9,
+      "name": "Coca-Cola Zero Sugar",
+      "image": "https://freepngimg.com/thumb/coca_cola/7-coca-cola-diet-can-png-image.png",
+      "quantity": "120/180",
+      "description": "Coke taste with zero sugar and zero calories."
+    },
+    {
+      "id": 10,
+      "name": "Vitamin Water Energy",
+      "image": "https://freepngimg.com/thumb/drink/22700-6-drink-transparent-image.png",
+      "quantity": "28/50",
+      "description": "Electrolyte-enhanced water with a burst of fruit flavor."
+    }
+  ]
+}
